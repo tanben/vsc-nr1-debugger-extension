@@ -1,0 +1,106 @@
+{
+	"name": "vsc-nr1-debugger-extension",
+	"displayName": "vsc-nr1-debugger-extension",
+	"description": "nr1 launch configurations",
+	"publisher": "TanBen",
+	"repository":"https://github.com/tanben/vsc-nr1-debugger-extension-extension",
+	"version": "0.0.1",
+	"engines": {
+		"vscode": "^1.49.0"
+	},
+	"categories": [
+		"Debuggers"
+	],
+
+	"contributes": {
+		"debuggers": [
+
+      {
+        "type": "vsc-nr1-debugger-extension-chrome",
+				"label": "NR1: Chrome Launch"	,
+				"languages": ["javascript", "javascriptreact"],
+				"initialConfigurations": [
+          {
+            "name": "NR1: Chrome Launch",
+            "type": "chrome",
+            "request": "launch",
+            "smartStep": true,
+            "showAsyncStacks": true,
+            "url": "https://one.newrelic.com/launcher/nr1-core.home?nerdpacks=local",
+            "pathMapping": {
+                   "webpack://__nr_modules./[name]/nerdlets": "${workspaceFolder}/nerdlets"
+            }
+					}
+				],
+				"configurationSnippets": [
+					{
+						"label": "NR1: Chrome Launch"	,
+						"description": "NR One configuration for launching and debugging using Chrome browser",
+						"body":{
+								"name": "NR1: Chrome Launch",
+								"type": "chrome",
+								"request": "launch",
+								"smartStep": true,
+								"showAsyncStacks": true,
+								"url": "https://one.newrelic.com/launcher/nr1-core.home?nerdpacks=local",
+								"pathMapping": {
+											 "webpack://__nr_modules./[name]/nerdlets": "${workspaceFolder}/nerdlets"
+								}
+						}
+					}
+				]
+			},
+			{
+        "type": "vsc-nr1-debugger-extension-firefox",
+				"label": "NR1: Firefox Launch"	,
+				"languages": ["javascript", "javascriptreact"],
+				"initialConfigurations": [
+          {
+						"name":"NR1: Firefox Launch",
+						"type": "firefox",
+						"request": "launch",
+						"reAttach": true,
+						"url": "https://one.newrelic.com/launcher/nr1-core.home?nerdpacks=local",
+						"pathMappings": [
+								{
+										"url": "webpack://__nr_modules./[name]/nerdlets",
+										"path": "${workspaceFolder}/nerdlets"
+								}
+						]
+					}
+				],
+				"configurationSnippets": [
+					{
+						"label":"NR1: Launch Firefox",
+						"description": "NR One configuration for launching and debugging using Firefox browser",
+						"body":{
+							"name":"NR1: Launch Firefox",
+							"type": "firefox",
+							"request": "launch",
+							"reAttach": true,
+							"url": "https://one.newrelic.com/launcher/nr1-core.home?nerdpacks=local",
+							"pathMappings": [
+									{
+											"url": "webpack://__nr_modules./[name]/nerdlets",
+											"path": "${workspaceFolder}/nerdlets"
+									}
+							]
+						}
+					}
+        ]
+			}
+		]
+	},
+
+	"devDependencies": {
+		"@types/vscode": "^1.49.0",
+		"@types/glob": "^7.1.3",
+		"@types/mocha": "^8.0.0",
+		"@types/node": "^14.0.27",
+		"eslint": "^7.9.0",
+		"glob": "^7.1.6",
+		"mocha": "^8.1.3",
+		"typescript": "^4.0.2",
+		"vscode-test": "^1.4.0"
+	}
+}
