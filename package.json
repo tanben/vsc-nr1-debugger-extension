@@ -3,7 +3,7 @@
 	"displayName": "vsc-nr1-debugger-extension",
 	"description": "nr1 launch configurations",
 	"publisher": "TanBen",
-	"repository":"https://github.com/tanben/vsc-nr1-debugger-extension-extension",
+	"repository":"https://github.com/tanben/vsc-nr1-debugger-extension",
 	"version": "0.0.1",
 	"engines": {
 		"vscode": "^1.49.0"
