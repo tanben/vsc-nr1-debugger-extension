@@ -23,7 +23,7 @@ Visual Studio Code Debugger extension:
 1. Create launch configuration for either Chrome or Firefox from the dropdown  choose either:
 ```
 > NR1: Chrome Launch
-  NR1: Firefox Laßunch
+  NR1: Firefox Launch
  ```
 
 ## Launch Configurations
