@@ -1,7 +1,10 @@
-# vsc-nr1-debugger-extension README
+# vsc-nr1-debugger-extension
+[![VisualStudio Marketplace](https://img.shields.io/badge/dynamic/json?color=blue&label=Visual%20Studio%20Marketplace&query=version&url=https%3A%2F%2Fraw.githubusercontent.com%2Ftanben%2Fvsc-nr1-debugger-extension%2Fmaster%2Fpackage.json)]()
+[![VSCodeVersion](https://img.shields.io/badge/dynamic/json?color=orange&label=VSCode&query=engines.vscode&url=https%3A%2F%2Fraw.githubusercontent.com%2Ftanben%2Fvsc-nr1-debugger-extension%2Fmaster%2Fpackage.json)]()
 
-Setup Chrome and Firefox launch configuration for debugging New Relic One applications (Nerdpack).
+Generate Chrome and Firefox launch configuration for debugging New Relic One applications (Nerdpack).
 
+![](./assets/mov.gif)
 ## Features
 Create launch configurations for:
 
