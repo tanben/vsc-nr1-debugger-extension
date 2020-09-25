@@ -19,7 +19,7 @@ Visual Studio Code Debugger extension:
 
 
 ## Installation
-1. Open Run/Debug viewlet and select `create a luanch.json file`.
+1. Open Run/Debug viewlet and select `create a launch.json file`.
 1. Create launch configuration for either Chrome or Firefox from the dropdown  choose either:
 ```
 > NR1: Chrome Launch
