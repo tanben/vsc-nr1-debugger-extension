@@ -1,10 +1,10 @@
 {
 	"name": "vsc-nr1-debugger-extension",
-	"displayName": "vsc-nr1-debugger-extension",
+	"displayName": "VSC NR1 Debugger Extension",
 	"description": "nr1 launch configurations",
 	"publisher": "TanBen",
 	"repository":"https://github.com/tanben/vsc-nr1-debugger-extension",
-	"version": "0.0.1",
+	"version": "0.0.2",
 	"engines": {
 		"vscode": "^1.49.0"
 	},
