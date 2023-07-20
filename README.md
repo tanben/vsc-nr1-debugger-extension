@@ -1,11 +1,13 @@
-# vsc-nr1-debugger-extension
+# NewRelic One Debugger Extension for Visual Studio Code
 [![VisualStudio Marketplace](https://img.shields.io/badge/dynamic/json?color=blue&label=Visual%20Studio%20Marketplace&query=version&url=https%3A%2F%2Fraw.githubusercontent.com%2Ftanben%2Fvsc-nr1-debugger-extension%2Fmaster%2Fpackage.json)](https://marketplace.visualstudio.com/items?itemName=TanBen.vsc-nr1-debugger-extension)
 [![VSCodeVersion](https://img.shields.io/badge/dynamic/json?color=orange&label=VSCode&query=engines.vscode&url=https%3A%2F%2Fraw.githubusercontent.com%2Ftanben%2Fvsc-nr1-debugger-extension%2Fmaster%2Fpackage.json)](https://github.com/tanben/vsc-nr1-debugger-extension/blob/master/package.json)
 
-Generate Chrome and Firefox launch configuration for debugging New Relic One applications (Nerdpack).
+Debug New Relic One application on Visual Studio code using this extension.
+
 
 ![](./assets/mov.gif)
 ## Features
+Generate Chrome and Firefox launch configuration for debugging New Relic One applications (Nerdpack).
 Create launch configurations for:
 
 1. Chrome browser
